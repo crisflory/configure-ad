@@ -79,4 +79,6 @@ After completion, check ADUC to verify the accounts are in the appropriate OU.
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/dbc5f8a6-8661-4006-8b3e-dd47356b7c55)
 
 Attempt to log into Client-1 using one of the newly created accounts (note the password from the script).
+![image](https://github.com/crisflory/configure-ad/assets/147748310/4c326b2f-4c3e-43e6-ba18-e2620929688c)
+
 Finish.
