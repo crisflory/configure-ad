@@ -7,6 +7,8 @@ Create a Domain Controller VM (Windows Server 2022) with the name "DC-1."
 Make a note of the Resource Group and Virtual Network (Vnet) created during this step.
 Configure the Domain Controller's NIC Private IP address to be static.
 
+![image](https://github.com/crisflory/configure-ad/assets/147748310/62a464e8-0f26-45c7-ac68-b72136a30010)
+
 Create the Client VM (Windows 10) named "Client-1" using the same Resource Group and Vnet as in Step 1.b.
 
 Ensure that both VMs are within the same Vnet, which can be verified using Network Watcher.
@@ -16,6 +18,8 @@ Log in to Client-1 using Remote Desktop and continuously ping DC-1's private IP 
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/4dd25fe7-9e0d-4adf-bd42-3029348b6063)
 
 On the Domain Controller, enable ICMPv4 in the local Windows Firewall.
+![image](https://github.com/crisflory/configure-ad/assets/147748310/bb73e342-1c47-4167-a027-eedb479da4a4)
+
 
 Confirm successful ping from Client-1.
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/acb20431-cf02-4685-9f13-f757d892771e)
