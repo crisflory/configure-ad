@@ -42,6 +42,9 @@ In Active Directory Users and Computers (ADUC), create an Organizational Unit (O
 
 Create another OU called "_ADMINS."
 Create a new employee named "Jane Doe" (using the same password) with the username "jane_admin."
+![image](https://github.com/crisflory/configure-ad/assets/147748310/ad4679b5-cd20-4609-81b4-eee32f1a52ef)
+
+
 Add "jane_admin" to the "Domain Admins" Security Group.
 Log out of the Remote Desktop connection to DC-1 and log back in as "mydomain.com\jane_admin."
 Use "jane_admin" as your admin account from this point forward.
