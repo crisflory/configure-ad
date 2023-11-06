@@ -58,21 +58,25 @@ Restart Client-1 from the Azure Portal.
 
 Log in to Client-1 (Remote Desktop) as the original local admin ("labuser") and join it to the domain (the computer will restart).
 Log in to the Domain Controller (Remote Desktop) and confirm that Client-1 appears in Active Directory Users and Computers (ADUC) within the "Computers" container in the root of the domain.
-Optionally, create a new OU named "_CLIENTS" and move Client-1 into it for organizational purposes.
-Set up Remote Desktop for non-administrative users on Client-1.
 
 Log in to Client-1 as "mydomain.com\jane_admin" and access system properties.
 
 Click on "Remote Desktop" and grant "domain users" access to remote desktop, allowing normal, non-administrative user access.
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/96f647c8-0a15-4956-a046-cf4d528a0d86)
 
-Note that this could typically be accomplished through Group Policy for making widespread changes (a potential topic for a future lab).
 Create multiple additional users and attempt to log into Client-1 with one of these new accounts.
 
 Log in to DC-1 as "jane_admin."
+
 Open PowerShell_ise as an administrator.
+
 Create a new file and paste the contents of the script from this URL (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
 Execute the script and observe the new accounts being created.
+
+![image](https://github.com/crisflory/configure-ad/assets/147748310/14997951-5d2a-4ab0-a0aa-81c30889d746)
+
 After completion, check ADUC to verify the accounts are in the appropriate OU.
-Attempt to log into Client-1 using one of the newly created accounts (note the password from the script).
+![image](https://github.com/crisflory/configure-ad/assets/147748310/dbc5f8a6-8661-4006-8b3e-dd47356b7c55)
+
+badas.pepugAttempt to log into Client-1 using one of the newly created accounts (note the password from the script).
 Finish.
