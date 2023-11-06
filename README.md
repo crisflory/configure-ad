@@ -71,12 +71,12 @@ Log in to DC-1 as "jane_admin."
 Open PowerShell_ise as an administrator.
 
 Create a new file and paste the contents of the script from this URL (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
-Execute the script and observe the new accounts being created.
+Run the script and observe the new accounts being created.
 
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/14997951-5d2a-4ab0-a0aa-81c30889d746)
 
 After completion, check ADUC to verify the accounts are in the appropriate OU.
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/dbc5f8a6-8661-4006-8b3e-dd47356b7c55)
 
-badas.pepugAttempt to log into Client-1 using one of the newly created accounts (note the password from the script).
+Attempt to log into Client-1 using one of the newly created accounts (note the password from the script).
 Finish.
