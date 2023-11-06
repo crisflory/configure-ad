@@ -30,6 +30,8 @@ Log in to DC-1 and install Active Directory Domain Services.
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/16734e42-9002-465b-8ece-63ede765990a)
 
 Promote it as a Domain Controller, setting up a new forest, e.g., "mydomain.com" (you can choose any name).
+![image](https://github.com/crisflory/configure-ad/assets/147748310/47f20e4c-b95c-4016-80ee-643163e7c9a6)
+
 Restart and log back into DC-1 as the user "mydomain.com\labuser."
 Create an Administrator and Normal User Account in AD.
 
