@@ -51,6 +51,8 @@ Use "jane_admin" as your admin account from this point forward.
 Join Client-1 to your domain (mydomain.com).
 
 From the Azure Portal, configure Client-1's DNS settings to use the DC's Private IP address.
+![image](https://github.com/crisflory/configure-ad/assets/147748310/4689af31-7f4f-4eb7-9bef-570f886a0d98)
+
 Restart Client-1 from the Azure Portal.
 Log in to Client-1 (Remote Desktop) as the original local admin ("labuser") and join it to the domain (the computer will restart).
 Log in to the Domain Controller (Remote Desktop) and confirm that Client-1 appears in Active Directory Users and Computers (ADUC) within the "Computers" container in the root of the domain.
