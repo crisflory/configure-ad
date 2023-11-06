@@ -33,9 +33,13 @@ Promote it as a Domain Controller, setting up a new forest, e.g., "mydomain.com"
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/32c2d588-5a73-4cdf-9fd7-df4d6423fb66)
 
 Restart and log back into DC-1 as the user "mydomain.com\labuser."
+
+
 Create an Administrator and Normal User Account in AD.
 
 In Active Directory Users and Computers (ADUC), create an Organizational Unit (OU) named "_EMPLOYEES."
+![image](https://github.com/crisflory/configure-ad/assets/147748310/d366d46f-ebae-463b-9861-5805f688d0ae)
+
 Create another OU called "_ADMINS."
 Create a new employee named "Jane Doe" (using the same password) with the username "jane_admin."
 Add "jane_admin" to the "Domain Admins" Security Group.
