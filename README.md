@@ -27,6 +27,8 @@ Confirm successful ping from Client-1.
 Install Active Directory.
 
 Log in to DC-1 and install Active Directory Domain Services.
+![image](https://github.com/crisflory/configure-ad/assets/147748310/16734e42-9002-465b-8ece-63ede765990a)
+
 Promote it as a Domain Controller, setting up a new forest, e.g., "mydomain.com" (you can choose any name).
 Restart and log back into DC-1 as the user "mydomain.com\labuser."
 Create an Administrator and Normal User Account in AD.
