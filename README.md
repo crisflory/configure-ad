@@ -7,7 +7,7 @@ Create a Domain Controller VM (Windows Server 2022) with the name "DC-1."
 Make a note of the Resource Group and Virtual Network (Vnet) created during this step.
 
 Configure the Domain Controller's NIC Private IP address to be static.
-![image](https://github.com/crisflory/configure-ad/assets/147748310/35a10952-f2d4-40a6-b987-9e5a1f1c398e)
+![image](https://github.com/crisflory/configure-ad/assets/147748310/6d67a004-c6f9-4aad-a214-0b4122b74c68)
 
 
 Create the Client VM (Windows 10) named "Client-1" using the same Resource Group and Vnet as in Step 1.b.
