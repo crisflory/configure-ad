@@ -62,7 +62,10 @@ Optionally, create a new OU named "_CLIENTS" and move Client-1 into it for organ
 Set up Remote Desktop for non-administrative users on Client-1.
 
 Log in to Client-1 as "mydomain.com\jane_admin" and access system properties.
+
 Click on "Remote Desktop" and grant "domain users" access to remote desktop, allowing normal, non-administrative user access.
+![image](https://github.com/crisflory/configure-ad/assets/147748310/96f647c8-0a15-4956-a046-cf4d528a0d86)
+
 Note that this could typically be accomplished through Group Policy for making widespread changes (a potential topic for a future lab).
 Create multiple additional users and attempt to log into Client-1 with one of these new accounts.
 
