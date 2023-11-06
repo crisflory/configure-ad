@@ -82,3 +82,4 @@ Attempt to log into Client-1 using one of the newly created accounts (note the p
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/4c326b2f-4c3e-43e6-ba18-e2620929688c)
 
 Finish.
+![image](https://github.com/crisflory/configure-ad/assets/147748310/f2a916c7-7fb3-4555-a455-434ad9ec3e37)
