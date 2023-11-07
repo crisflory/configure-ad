@@ -68,7 +68,7 @@ Log in to DC-1 as "jane_admin."
 
 Open PowerShell_ise as an administrator.
 
-Create a new file and paste the contents of the script from this URL (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1).
+Create a new file and paste the contents of the needed script to create accounts.
 Run the script and observe the new accounts being created.
 
 ![image](https://github.com/crisflory/configure-ad/assets/147748310/14997951-5d2a-4ab0-a0aa-81c30889d746)
