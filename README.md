@@ -1,5 +1,3 @@
-Simplified List provides a concise overview of the necessary steps to complete this laboratory assignment. If you wish to assess your "Technical Proficiency" in alignment with the 12 Pillars of Employment (your 12 performance metrics), I suggest reaching a point where you can execute the labs using only the simplified instructions.
-
 Set up Resources in Azure.
 
 Create a Domain Controller VM (Windows Server 2022) with the name "DC-1."
